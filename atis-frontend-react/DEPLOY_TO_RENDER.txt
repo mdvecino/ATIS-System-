@@ -1,0 +1,73 @@
+═══════════════════════════════════════════════════════════════
+  QUICK GUIDE: DEPLOY TO RENDER
+═══════════════════════════════════════════════════════════════
+
+📁 FILES IN THIS FOLDER (Upload these to Render):
+   ✅ index.html          (Main ATIS Information page)
+   ✅ api-docs.html       (API Documentation)
+   ✅ README.md           (Optional - this file)
+
+═══════════════════════════════════════════════════════════════
+  STEP-BY-STEP INSTRUCTIONS:
+═══════════════════════════════════════════════════════════════
+
+1. Go to: https://dashboard.render.com
+   (Sign up/Login if needed)
+
+2. Click: "New +" button → "Static Site"
+
+3. Choose one:
+   Option A: Connect GitHub/GitLab repository
+   Option B: Manual Deploy (upload folder)
+
+4. Settings:
+   ┌─────────────────────────────────────┐
+   │ Name: atis-documentation            │
+   │ Build Command: (LEAVE EMPTY)        │
+   │ Publish Directory: .                │
+   │ Environment: Static                 │
+   └─────────────────────────────────────┘
+
+5. Click: "Create Static Site"
+
+6. Wait 2-3 minutes for deployment
+
+7. Get your URL:
+   https://atis-documentation.onrender.com
+
+═══════════════════════════════════════════════════════════════
+  YOUR LINKS (after deployment):
+═══════════════════════════════════════════════════════════════
+
+Main Page:
+   https://your-site.onrender.com/
+   (Shows ATIS Information)
+
+API Docs:
+   https://your-site.onrender.com/api-docs.html
+   (Shows API Documentation)
+
+═══════════════════════════════════════════════════════════════
+  WHAT TO UPLOAD:
+═══════════════════════════════════════════════════════════════
+
+✅ UPLOAD THESE:
+   • index.html
+   • api-docs.html
+   • README.md (optional)
+
+❌ DON'T UPLOAD:
+   • Python files (.py)
+   • Database files (.db)
+   • node_modules
+   • __pycache__
+   • Any backend code
+
+═══════════════════════════════════════════════════════════════
+
+🎉 After deployment, share the Render URL with your group!
+
+═══════════════════════════════════════════════════════════════
+
+
+
